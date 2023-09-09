@@ -5,7 +5,7 @@ import authRoutes from "./routes/authRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import tourRoutes from "./routes/tourRoutes.js";
 import bookingRoutes from "./routes/bookingRoutes.js";
-  import reviewRoutes from "./routes/reviewRoutes.js";
+import reviewRoutes from "./routes/reviewRoutes.js";
 import adminRoutes from "./routes/adminRoutes.js";
 
 const app = express();
