@@ -13,7 +13,6 @@
   - [Authentication](#authentication)
   - [User Profile](#user-profile)
   - [Tours and Packages](#tours-and-packages)
-  - [Payment](#payment)
   - [Reviews and Ratings](#reviews-and-ratings)
   - [Booking Management](#booking-management)
   - [Admin Operations](#admin-operations)
@@ -32,7 +31,6 @@ The Travel and Tours Booking Application is a comprehensive platform that allows
 - User profile management (update, delete).
 - Tour and package listing with detailed information.
 - Booking creation, modification, and cancellation.
-- Payment processing and webhook handling.
 - Review submission and retrieval.
 - Admin operations for managing tours/packages.
 - Role-based access control for administrators.
@@ -98,11 +96,6 @@ Before you begin, ensure you have met the following requirements:
 - Use `/api/v1/tours` to get a list of available tours and packages.
 - Use `/api/v1/tours/{tourId}` to get details for a specific tour/package.
 - Use `/api/v1/tours/{tourId}/bookings` to create a booking for a tour.
-
-### Payment
-
-- Use `/api/v1/payment/checkout` to initiate the payment process for a booking.
-- Use `/api/v1/payment/webhooks` to handle payment gateway callbacks.
 
 ### Reviews and Ratings
 
